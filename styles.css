@@ -287,7 +287,7 @@ em { font-style: normal; }
     font: 600 clamp(1rem, 2.4vw, 1.3rem)/1.2 var(--f-display);
     letter-spacing: .36em; text-transform: uppercase; text-align: center;
 }
-.loader__brand span { display: block; margin-top: .55em; font-size: .62em; letter-spacing: .6em; color: var(--gold-2); font-weight: 400; }
+.loader__brand span { display: block; margin-bottom: .55em; font-size: .62em; letter-spacing: .6em; color: var(--gold-2); font-weight: 400; }
 
 .loader__meter { display: flex; align-items: baseline; gap: 4px; font-family: var(--f-display); line-height: 1; margin-top: 10px; }
 .loader__meter b { font-size: clamp(3rem, 9vw, 4.6rem); font-weight: 300; letter-spacing: -.04em; min-width: 2ch; text-align: right; font-variant-numeric: tabular-nums; }
@@ -335,7 +335,7 @@ em { font-style: normal; }
 .nav[data-theme="light"] .nav__logo--ink { opacity: 1; }
 .nav__word { display: grid; line-height: 1; }
 .nav__word b { font: 600 1.02rem/1 var(--f-display); letter-spacing: -.01em; }
-.nav__word small { margin-top: 4px; font: 400 .6rem/1 var(--f-mono); letter-spacing: .38em; text-transform: uppercase; color: var(--gold-2); }
+.nav__word small { margin-bottom: 4px; font: 400 .6rem/1 var(--f-mono); letter-spacing: .38em; text-transform: uppercase; color: var(--gold-2); }
 .nav[data-theme="light"] .nav__word small { color: var(--gold-ink); }
 
 .nav__links { display: none; align-items: center; gap: 2px; }
